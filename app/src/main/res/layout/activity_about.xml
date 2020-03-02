@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.learnearnbuy.About"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#4d084b"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="An online mobile application (App) that focuses on the  women at home to learn, earn and buy handicraft products easily.\nThis is a platform where the learners, earners and buyers meet at the same place. Anyone who is unemployed at home, can learn from the organized video tutorials shared here including the materials' details by which the learner can be able to make such products and  earn from here.\n\nFrom the products displayed for selling, anyone can buy their desired product by placing an order.\nThe payment process would be done through Bkash and the delivery process would be done by  S.A. Poribohon courier services.This application and its' all activities would be available in all over Bangladesh."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#4d084b"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
